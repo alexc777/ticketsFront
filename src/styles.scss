@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+body, html, app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 15px;
+}
+
+.h_container {
+  float: left;
+  width: 100%;
+  height: 100vh;
+  max-height: calc(100vh - 56px);
+
+  .row {
+    height: 100vh;
+    max-height: calc(100vh - 70px);
+  }
+}
+
+.spacer_list {
+  border-right: 2px solid #eee;
+}
+
+.cotainer_tickets_list {
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  max-height: calc(100vh - 56px);
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .card {
+    margin-bottom: 5px;
+  }
+}
+
+.container_button {
+  float: left;
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

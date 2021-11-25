@@ -1,1 +1,71 @@
-<p>services-client works!</p>
+<div class="container-fluid h_container">
+  <div class="row">
+    <div class="col-3 spacer_list">
+      <div class="cotainer_tickets_list">
+        <div class="card" *ngFor="let item of [0,1,2,3]">
+          <div class="card-header">
+            Ticket #123 <span class="badge bg-warning">En espeara</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-9 pt-3">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header text-center">
+              Ventanilla #1
+            </div>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Atendiendo Ticket: <span class="badge bg-primary">#123</span>
+              </li>
+            </ul>
+
+            <div class="container_button">
+              <button type="button" class="btn btn-outline-dark">Siguiente Ticket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card-header text-center">
+              Ventanilla #2
+            </div>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Atendiendo Ticket: <span class="badge bg-primary">#123</span>
+              </li>
+            </ul>
+
+            <div class="container_button">
+              <button type="button" class="btn btn-outline-dark">Siguiente Ticket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card-header text-center">
+              Ventanilla #3
+            </div>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Atendiendo Ticket: <span class="badge bg-primary btn-sm">#123</span>
+              </li>
+            </ul>
+
+            <div class="container_button">
+              <button type="button" class="btn btn-outline-dark">Siguiente Ticket</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
